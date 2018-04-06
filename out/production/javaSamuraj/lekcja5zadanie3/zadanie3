@@ -1,0 +1,7 @@
+3. Oprogramuj pilot do telewizora, niech naciśnięcie danego przycisku wywołuje jakąś metodę.
+ Program po uruchomieniu ma wyświetlić liczbę dostępnych przycisków, a po naciśnięciu danego przycisku
+ (czyli wpisaniu jego nazwy) komunikat. Pilot niech ma przyciski numeryczne, ale maksymalna wartość, jaką można wpisać to 9.
+ Niech ma przycisk on/off, pozostałe przyciski nie działają, kiedy TV jest wyłączony.
+  Niech posiada regulację głośności (minimum 1, maksimum 15) i przycisk zmiany kanału w górę,
+  a także w dół. Kanały niech będą zapętlone, z kolei głośność nie. Kończenie pracy programu po wyłączeniu telewizora.
+ UWAGA! Przypominam, że do porównywania tekstu używamy metody equals.

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaPodstawy/JavaPodstawy.iml" filepath="$PROJECT_DIR$/JavaPodstawy/JavaPodstawy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaStart/JavaStart.iml" filepath="$PROJECT_DIR$/JavaStart/JavaStart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjektOdPodstaw/ProjektOdPodstaw.iml" filepath="$PROJECT_DIR$/ProjektOdPodstaw/ProjektOdPodstaw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZELENT/ZELENT.iml" filepath="$PROJECT_DIR$/ZELENT/ZELENT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaSamuraj/javaSamuraj.iml" filepath="$PROJECT_DIR$/javaSamuraj/javaSamuraj.iml" />
+    </modules>
+  </component>
+</project>
