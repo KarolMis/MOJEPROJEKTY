@@ -43,7 +43,7 @@ public class CalculatorController {
                 System.out.println(calculator.add(a, b));
                 break;
             case '-':
-                System.out.println(calculator.substract(a, b));
+                System.out.println(calculator.subtract(a, b));
                 break;
             case '*':
                 System.out.println(calculator.multiply(a, b));
