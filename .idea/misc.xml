@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/ProjektOdPodstaw/pom.xml" />
         <option value="$PROJECT_DIR$/ZELENT/pom.xml" />
+        <option value="$PROJECT_DIR$/designPatterns/pom.xml" />
       </list>
     </option>
   </component>

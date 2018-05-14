@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Observer" />
         <module name="ProjektOdPodstaw" />
         <module name="ZELENT" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ProjektOdPodstaw" target="1.5" />
-      <module name="ZELENT" target="1.5" />
+    <bytecodeTargetLevel target="8">
+      <module name="Observer" target="8" />
+      <module name="ProjektOdPodstaw" target="8" />
+      <module name="ZELENT" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
