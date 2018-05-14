@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/ProjektOdPodstaw/ProjektOdPodstaw.iml" filepath="$PROJECT_DIR$/ProjektOdPodstaw/ProjektOdPodstaw.iml" />
       <module fileurl="file://$PROJECT_DIR$/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Singleton/Singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZELENT/ZELENT.iml" filepath="$PROJECT_DIR$/ZELENT/ZELENT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adapter/adapter.iml" filepath="$PROJECT_DIR$/adapter/adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dekorator/dekorator.iml" filepath="$PROJECT_DIR$/dekorator/dekorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory/factory.iml" filepath="$PROJECT_DIR$/factory/factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/flyweight/flyweight.iml" filepath="$PROJECT_DIR$/flyweight/flyweight.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaSamuraj/javaSamuraj.iml" filepath="$PROJECT_DIR$/javaSamuraj/javaSamuraj.iml" />
