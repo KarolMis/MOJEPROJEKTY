@@ -1,6 +1,6 @@
 import flyweight.Destroyer;
 import flyweight.Rifleman;
-import flyweight.TeslTank;
+import flyweight.TeslaTank;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,9 +10,9 @@ public class Main {
         List<Object> activeUnits = new ArrayList<>();
 
         for(int i = 0;i<1000000;i++) {
-            activeUnits.add(new TeslTank("TeslaTank",200,100,50,25,0,0, 500));
-            activeUnits.add(new Rifleman("Rifleman", 25, 5, 20, 25, 0, 0, 50 ));
-            activeUnits.add(new Destroyer("Destroyer", 500, 250, 70, 10, 0, 0, 800 ));
+            activeUnits.add(new TeslaTank(0,0));
+            activeUnits.add(new Rifleman(0,0));
+            activeUnits.add(new Destroyer( 0, 0));
         }
     }
 }
