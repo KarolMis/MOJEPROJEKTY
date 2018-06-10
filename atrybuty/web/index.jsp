@@ -12,6 +12,13 @@
   </head>
   <body>
     <form action="LoginServlet" method="post" >
+      <label>
+        <input type="text" name="login">
+      </label>
+      <label>
+        <input type="password" name="password">
+      </label>
+      <input type="submit" value="Wyślij">
 
     </form>
 

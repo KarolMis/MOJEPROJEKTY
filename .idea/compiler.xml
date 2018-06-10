@@ -7,14 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Observer" />
-        <module name="ProjektOdPodstaw" />
-        <module name="ZELENT" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="Observer" target="8" />
+      <module name="Observer" target="1.5" />
       <module name="ProjektOdPodstaw" target="8" />
-      <module name="ZELENT" target="8" />
+      <module name="ZELENT" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
