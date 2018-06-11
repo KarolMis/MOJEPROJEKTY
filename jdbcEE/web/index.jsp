@@ -8,11 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-<title>Państwa miasta</title>
+<title>Klienci</title>
 </head>
 <body>
 <h1>Witaj!</h1>
 <div>Wybierz opcję:</div>
-<a href="SqlServlet?get=show">Pokaż wszystkie miasta</a>
+<a href="SqlServlet?get=show">Pokaż wszystkich klientów</a>
 </body>
 </html>
