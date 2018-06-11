@@ -1,17 +1,46 @@
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Random;
 
-@WebServlet(name = "CookieServlet")
+@WebServlet("/CookieServlet")
 public class CookieServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String option = request.getParameter("cookie");
+        if("create".equals(option)) {
+            Cookie cookie = createCookie();
+            response.addCookie(cookie);
+            request.getRequestDispatcher("cookieinfo.jsp").forward(request, response);
+        } else if("print".equals(option)) {
+            request.getRequestDispatcher("cookieinfo.jsp").forward(request, response);
+        } else if("remove".equals(option)) {
+            removeCookies(request, response);
+            request.getRequestDispatcher("nocookie.jsp").forward(request, response);
+        }
+    }
 
+    private void removeCookies(HttpServletRequest request, HttpServletResponse response) {
+        Cookie[] cookies = request.getCookies();
+        for (Cookie cookie : cookies) {
+            cookie.setMaxAge(0);
+            response.addCookie(cookie);
+        }
+    }
+
+    private Cookie createCookie() {
+        Random r = new Random();
+        String cookieName = "cookie"+r.nextInt(100);
+        String cookieValue = ""+r.nextInt(1000);
+        Cookie cookie = new Cookie(cookieName, cookieValue);
+        cookie.setMaxAge(60 * 60); //1h * 60min * 60sec
+        return cookie;
     }
 }
