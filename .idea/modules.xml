@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Builder/Builder.iml" filepath="$PROJECT_DIR$/Builder/Builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConnectionPooling/ConnectionPooling.iml" filepath="$PROJECT_DIR$/ConnectionPooling/ConnectionPooling.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cookies/Cookies.iml" filepath="$PROJECT_DIR$/Cookies/Cookies.iml" />
       <module fileurl="file://$PROJECT_DIR$/Filtr/Filtr.iml" filepath="$PROJECT_DIR$/Filtr/Filtr.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaStart/JavaStart.iml" filepath="$PROJECT_DIR$/JavaStart/JavaStart.iml" />
