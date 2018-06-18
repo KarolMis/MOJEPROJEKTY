@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/designPatterns/Observer.iml" filepath="$PROJECT_DIR$/designPatterns/Observer.iml" />
       <module fileurl="file://$PROJECT_DIR$/ServletConfig/ServletConfig.iml" filepath="$PROJECT_DIR$/ServletConfig/ServletConfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Singleton/Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SqlInjection/SqlInjection.iml" filepath="$PROJECT_DIR$/SqlInjection/SqlInjection.iml" />
       <module fileurl="file://$PROJECT_DIR$/adapter/adapter.iml" filepath="$PROJECT_DIR$/adapter/adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/atrybuty/atrybuty.iml" filepath="$PROJECT_DIR$/atrybuty/atrybuty.iml" />
       <module fileurl="file://$PROJECT_DIR$/dekorator/dekorator.iml" filepath="$PROJECT_DIR$/dekorator/dekorator.iml" />
